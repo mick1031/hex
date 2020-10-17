@@ -1,1 +1,1 @@
-# hex
+# Hex School Practice
