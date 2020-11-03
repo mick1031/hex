@@ -1,8 +1,32 @@
 .hearder {
     background-color: #AA0601;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 88px;
+    height: 108px;
 }
 
-.banner {
-    background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/banner.png);
-    height: 840px;
+.header-menu {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-menu a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration:none;
+}
+
+.fw-regular{
+    font-weight: 400;
+}
+
+.fw-bold{
+    font-weight: 700;
+}
+
+.noto-sans{
+    font-family: "Noto Sans";
 }
