@@ -1,2 +1,67 @@
+.container {
+  width: 57%; }
+
+.banner {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/qa.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 80px; }
+
+.banner__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.banner__detail {
+  font-size: 64px;
+  line-height: 80px; }
+
+.banner__icon {
+  max-width: 100%;
+  display: block; }
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.faq__title {
+  font-size: 32px;
+  line-height: 63px;
+  margin-bottom: 36px; }
+
+.faq_list {
+  margin-bottom: 260px; }
+
+.faqItem_question {
+  margin-bottom: 16px; }
+  .faqItem_question p {
+    font-size: 20px;
+    line-height: 23px; }
+
+.faqItem_Answer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+  .faqItem_Answer p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px; }
 
 /*# sourceMappingURL=faq.css.map */
