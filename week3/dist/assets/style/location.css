@@ -1,2 +1,115 @@
+.container {
+  width: 57%; }
+
+.banner {
+  background-image: url(https://hexschool.github.io/webLayoutTraining1st/week3/qa.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 304px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 22px; }
+
+.banner__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.banner__detail {
+  font-size: 64px;
+  line-height: 80px; }
+
+.banner__icon {
+  max-width: 100%;
+  display: block; }
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.location {
+  margin-bottom: 32px; }
+
+.location__label {
+  font-size: 24px;
+  line-height: 30px;
+  margin-right: 20px; }
+
+.location__select {
+  width: 324px;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 10px; }
+
+.location__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 300px; }
+
+.locationItem {
+  width: calc(33% - 30px);
+  margin-right: 15px;
+  margin-left: 15px;
+  margin-bottom: 32px; }
+
+.locationItem__img {
+  max-width: 100%;
+  display: block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.locationItem__title {
+  font-size: 24px;
+  line-height: 36px;
+  border: 1px solid #00000020;
+  padding: 12px 24px; }
+
+.locationItem__content {
+  border: 1px solid #00000020;
+  padding: 8px 16px; }
+
+.locationItem__incon {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  margin-right: 12px; }
+
+.locationItem__detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 8px; }
+
+.locationItem__more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000000;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px; }
+
+.locationItem__moreLink {
+  color: #ffffff;
+  font-size: 19px;
+  line-height: 26px; }
 
 /*# sourceMappingURL=location.css.map */
