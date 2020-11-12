@@ -8,6 +8,12 @@
     width: 49.5%;
 }
 
+.productsWrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .title {
     font-size: 42px;
     line-height: 63px;
@@ -17,12 +23,6 @@
     font-size: 32px;
     line-height: 48px;
     margin-bottom: 40px;
-}
-
-.productsWrap {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }
 
 .products {
@@ -40,8 +40,10 @@
 
 .products__img {
     width: 100%;
-    margin-right: 30px;
     height: 164px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .productsContent {

@@ -10,15 +10,6 @@
 .banner__img {
   width: 49.5%; }
 
-.title {
-  font-size: 42px;
-  line-height: 63px; }
-
-.subTitle {
-  font-size: 32px;
-  line-height: 48px;
-  margin-bottom: 40px; }
-
 .productsWrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -30,6 +21,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
+
+.title {
+  font-size: 42px;
+  line-height: 63px; }
+
+.subTitle {
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 40px; }
 
 .products {
   width: 70%;
@@ -47,8 +47,10 @@
 
 .products__img {
   width: 100%;
-  margin-right: 30px;
-  height: 164px; }
+  height: 164px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 .productsContent {
   display: -webkit-box;
