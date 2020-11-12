@@ -15,7 +15,7 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin-bottom: 22px; }
+  margin-bottom: 16px; }
 
 .banner__content {
   display: -webkit-box;
@@ -84,7 +84,7 @@
   padding: 8px 16px; }
 
 .locationItem__incon {
-  display: inline-block;
+  display: block;
   width: 21px;
   height: 21px;
   margin-right: 12px; }
