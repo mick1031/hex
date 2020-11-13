@@ -31,8 +31,11 @@ a {
   height: 108px;
 }
 
+.MenuWrap {
+  width: 30%;
+}
+
 .headerMenu {
-  width: 600px;
   display: flex;
   justify-content: space-between;
 }
@@ -49,7 +52,7 @@ a {
 }
 
 .floorBox {
-  width: 1120px;
+  width: 57%;
   padding: 40px;
 }
 

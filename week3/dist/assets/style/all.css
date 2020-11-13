@@ -30,8 +30,10 @@ a {
   padding: 0 88px;
   height: 108px; }
 
+.MenuWrap {
+  width: 30%; }
+
 .headerMenu {
-  width: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,7 +55,7 @@ a {
           justify-content: center; }
 
 .floorBox {
-  width: 1120px;
+  width: 57%;
   padding: 40px; }
 
 .floorLinks {
