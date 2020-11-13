@@ -8,7 +8,7 @@ h2 {
 }
 
 .banner-box {
-    max-width: 1152px;
+    max-width: 60%;
     margin-right: auto;
     margin-left: auto;
     padding-top: 350px;
@@ -44,7 +44,7 @@ h2 {
 
 .infoContent {
     display: flex;
-    width: 1100px;
+    width: 57%;
     justify-content: space-between;
 }
 
@@ -52,11 +52,11 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 208px;
+    width: 19%;
 }
 
 .infoContent__icon {
-    width: 100px;
+    width: 65%;
     margin-bottom: 40px;
 }
 
@@ -111,7 +111,11 @@ h2 {
 }
 
 .productContent__img {
-    width: 635px;
+    width: 57%;
+}
+
+.productContent__icon {
+   
 }
 
 .productContent__detail {
@@ -140,10 +144,11 @@ h2 {
 
 .jointNameContent {
     display: flex;
+    width: 57%;
 }
 
 .jointNameContent__item {
-    width: 540px;
+    width: 48%;
     height: 472px;
     opacity: 0.5;
     margin: 0 15px;
@@ -179,7 +184,10 @@ h2 {
 }
 
 .recommend {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 64px;
     padding-bottom: 64px;
 }
@@ -192,12 +200,13 @@ h2 {
 .recommendContent {
     display: flex;
     justify-content: center;
+    width: 57%;
 }
 
 .recommendContent__item {
     display: flex;
     flex-direction: column;
-    width: 255px;
+    width: 23%;
     border: 1px solid #DEE2E6;
     margin-right: 30px;
     align-items: flex-start;
@@ -231,7 +240,7 @@ h2 {
 }
 
 .contact {
-    padding: 64px;
+    padding: 64px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -239,12 +248,13 @@ h2 {
 }
 
 .contact__title {
+    width: 38%;
     margin-bottom: 24px;
     text-align: center;
 }
 
 .contact__box {
-    width: 730px;
+    width: 38%;
 }
 
 .contact__description {
@@ -289,7 +299,7 @@ h2 {
     background-color: #AA0601;
     font-size: 16px;
     color: #FFFFFF;
-    width: 350px;
+    width: 31%;
     padding: 16px;
     margin: 0 auto;
 }

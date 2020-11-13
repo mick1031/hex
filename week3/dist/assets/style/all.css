@@ -74,7 +74,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 470px; }
+  width: 42%; }
 
 .floorLinks__insideItem {
   color: #ffffff;
@@ -87,7 +87,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 210px; }
+  width: 19%; }
 
 .footerPhone {
   display: -webkit-box;
@@ -161,7 +161,7 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 210px; }
+  width: 19%; }
 
 .copyrightLinks__link {
   color: #FFFFFF;
