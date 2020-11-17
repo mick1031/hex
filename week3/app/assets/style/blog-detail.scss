@@ -1,0 +1,176 @@
+.subMenu {
+    background-color: #650300;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.subMenuContent {
+    display: flex;
+    justify-content: space-between;
+    width: 58%;
+}
+
+.subMenuContent__list {
+    display: flex;
+    padding: 14px;
+    li {
+        margin-right: 18px;
+        color: #FFFFFF;
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+.subMenuContent__image {
+    width: 24px;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.container {
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.breadCrumbs {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.breadCrumbs--page {
+    color: #AA0601;
+    margin-bottom: 17px;
+}
+
+.contentWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBox {
+    width: 75%
+}
+
+.contentFlagBox {
+    width: 22%
+}
+
+.blogImage {
+    width: 100%;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.contentBox__tag {
+    display: flex;
+    li {
+        margin-right: 16px;
+    }
+}
+
+.tag {
+    font-size: 24px;
+    line-height: 36px;
+    color: #AA0601;
+}
+
+.contentBox__title {
+    font-size: 48px;
+    line-height: 95px;
+    margin-bottom: 5px;
+}
+
+.contentBox_attributes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.contentBox__subtitle {
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.contentBox__datetime {
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+
+.contentBox__detail {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 36px;
+    color: #0A0A0A;
+}
+
+.contentBox__discount {
+    font-size: 20px;
+    line-height: 30px;
+    color: #0A0A0A;
+    margin-bottom: 52px;
+}
+
+.contentBox__share {
+    display: flex;
+}
+
+.contentLink {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentLink__item {
+    display: flex;
+    align-items: center;
+    p {
+        font-size: 19px;
+        line-height: 30px;
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+}
+
+.contentBox__shareTitle {
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 19px;
+}
+
+.contentBox__shareIcon {
+    widows: 24px;
+    height: 24px;
+    margin-right: 16px;
+}
+
+.tag__title{
+    display: flex;
+    align-items: center;
+
+    img{
+        margin-right: 8px;
+    }
+
+    p{
+        color: #AA0601;
+        font-size:28px;
+        line-height: 42px;
+    }
+}
+
+.tag__list{
+    display: flex;
+    flex-wrap: wrap;
+    
+    li{
+        margin-right: 24px;
+    }
+}

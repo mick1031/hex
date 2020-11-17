@@ -1,17 +1,17 @@
-.breadCrumbs {
+.subMenu {
     background-color: #650300;
     display: flex;
     justify-content: center;
-    margin-bottom: 82px;
+    margin-bottom: 8px;
 }
 
-.breadCrumbs__content {
+.subMenuContent {
     display: flex;
     justify-content: space-between;
     width: 58%;
 }
 
-.breadCrumbsMenu {
+.subMenuContent__list {
     display: flex;
     padding: 14px;
     li {
@@ -20,6 +20,10 @@
         font-size: 20px;
         line-height: 24px;
     }
+}
+
+.subMenuContent__image {
+    width: 24px;
 }
 
 .wrap {

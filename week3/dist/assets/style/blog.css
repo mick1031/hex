@@ -1,4 +1,4 @@
-.breadCrumbs {
+.subMenu {
   background-color: #650300;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6,9 +6,9 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 82px; }
+  margin-bottom: 8px; }
 
-.breadCrumbs__content {
+.subMenuContent {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,16 +17,19 @@
           justify-content: space-between;
   width: 58%; }
 
-.breadCrumbsMenu {
+.subMenuContent__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   padding: 14px; }
-  .breadCrumbsMenu li {
+  .subMenuContent__list li {
     margin-right: 18px;
     color: #FFFFFF;
     font-size: 20px;
     line-height: 24px; }
+
+.subMenuContent__image {
+  width: 24px; }
 
 .wrap {
   display: -webkit-box;
