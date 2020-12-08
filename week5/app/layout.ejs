@@ -2,65 +2,85 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title><%- title %></title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
-    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-  <link rel="stylesheet" href="./assets/style/all.css">
-  <link rel="stylesheet" href="<%- pageCss %>">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%- title %></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/all.css">
+    <link rel="stylesheet" href="<%- pageCss %>">
 </head>
 
 <body>
-  <div style="display:flex;">
-    <div style="width: 23%;">
-      <div>
-        <img src="https://hexschool.github.io/webLayoutTraining1st/week5/logo-ANSWER.svg" alt="">
-        <ul>
-          <li>
-            <a href="#">Dashboard</a>
-          </li>
-          <li>
-            <a href="#">Question</a>
-          </li>
-          <li>
-            <a href="./assignment.html">Assignment</a>
-          </li>
-          <li>
-            <a href="#">Course</a>
-          </li>
-          <li>
-            <a href="./admin.html">Admin</a>
-          </li>
-          <li>
-            <a href="#">Settings</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <div>
-          <p>Andy Chen</p>
-          <p>andy0401@mail.com</p>
+    <div class="container-fluid">
+        <div class="row height-100vh">
+            <div class="col-2 d-flex flex-column justify-content-between menu">
+                <ul>
+                    <li class="mb-5">
+                        <img src="https://hexschool.github.io/webLayoutTraining1st/week5/logo-ANSWER.svg" alt="">
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="d-flex align-items-center font-weight-bold color-dark-green">
+                            <span class="material-icons mr-3">assessment</span>
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#"  class="d-flex align-items-center font-weight-bold color-dark-green">
+                            <span class="material-icons mr-3">question_answer</span>
+                            Question
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="./assignment.html"  class="d-flex align-items-center font-weight-bold color-dark-green">
+                            <span class="material-icons mr-3">assignment</span>
+                            Assignment
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="d-flex align-items-center font-weight-bold color-dark-green">
+                            <span class="material-icons mr-3">video_library</span>
+                            Course
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="./admin.html" class="d-flex align-items-center font-weight-bold color-dark-green">
+                            <span class="material-icons mr-3">group</span>
+                            Admin
+                        </a>
+                    </li>
+                    <li class="mb-4">
+                        <a href="#" class="d-flex align-items-center font-weight-bold color-dark-green">
+                            <span class="material-icons mr-3">settings</span>
+                            Settings
+                        </a>
+                    </li>
+                </ul>
+                <div class="d-flex mb-32px">
+                    <img class="rounded-circle mr-3 ml-40px user-image" src="https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/andychen.jpeg?raw=true" alt="">
+                    <div class="">
+                        <p class="font-weight-bold color-dark-green mb-0">Andy Chen</p>
+                        <p class="mb-0">andy0401@mail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-10">
+                <%- contents %>
+            </div>
         </div>
-      </div>
     </div>
 
-    <div style="width: 77%;">
-      <%- contents %>
-    </div>
-
-  </div>
-
-  <script src="./assets/js/vendors.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-    crossorigin="anonymous"></script>
-  <script src="./assets/js/all.js"></script>
+    <script src="./assets/js/vendors.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/all.js"></script>
 </body>
 
 </html>

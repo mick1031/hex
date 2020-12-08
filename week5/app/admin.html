@@ -7,24 +7,29 @@ pageCss: "./assets/style/admin.css"
 ---
 
 <div class="container">
-    <div class="header">
-        <div class="header__titleList">
-            <h1>Admin</h1>
-            <div class="header__addBtn">
-                <i class="fas fa-plus"></i>
-                <h2>Add New Admin</h2>
-            </div>
-            
+    <div class="row m-32px">
+        <h1 class="col-2 h4">Admin</h1>
+        <div class="col-8 d-flex align-items-center c-pointer" data-toggle="modal" data-target="#addModal">
+            <span class="material-icons h5 color-green">
+                add
+            </span>
+            <h2 class="h6">Add New Admin</h2>
         </div>
-        <div class="header__iconList">
-            <i class="fa fa-search"></i>
-            <i class="fa fa-bell"></i>
+        <div class="col-2">
+            <span class="material-icons mr-4">search</span>
+            <span class="material-icons">notifications</span>
         </div>
     </div>
-    <table>
+
+    <table class="table">
         <thead>
             <tr>
-                <th>ID</th>
+                <th class="d-flex align-items-center">
+                    ID
+                    <span class="material-icons color-green ">
+                        arrow_downward
+                    </span>
+                </th>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Verified</th>
@@ -38,8 +43,8 @@ pageCss: "./assets/style/admin.css"
                 <td>emir.wicks@mail.com</td>
                 <td>Yes</td>
                 <td>
-                    <i class="far fa-eye"></i>
-                    <i class="fas fa-pen"></i>
+                    <span class="material-icons mr-4">remove_red_eye</span>
+                    <span class="material-icons">create</span>
                 </td>
             </tr>
             <tr>
@@ -48,8 +53,8 @@ pageCss: "./assets/style/admin.css"
                 <td>zaina.goldsmith@mail.com</td>
                 <td>Yes</td>
                 <td>
-                    <i class="far fa-eye"></i>
-                    <i class="fas fa-pen"></i>
+                    <span class="material-icons mr-4">remove_red_eye</span>
+                    <span class="material-icons">create</span>
                 </td>
             </tr>
             <tr>
@@ -58,8 +63,8 @@ pageCss: "./assets/style/admin.css"
                 <td>Mahima.Lopez@mail.com</td>
                 <td>Yes</td>
                 <td>
-                    <i class="far fa-eye"></i>
-                    <i class="fas fa-pen"></i>
+                    <span class="material-icons mr-4">remove_red_eye</span>
+                    <span class="material-icons">create</span>
                 </td>
             </tr>
             <tr>
@@ -68,8 +73,8 @@ pageCss: "./assets/style/admin.css"
                 <td>Pharrell.Murray@mail.com</td>
                 <td>Yes</td>
                 <td>
-                    <i class="far fa-eye"></i>
-                    <i class="fas fa-pen"></i>
+                    <span class="material-icons mr-4">remove_red_eye</span>
+                    <span class="material-icons">create</span>
                 </td>
             </tr>
             <tr>
@@ -78,8 +83,8 @@ pageCss: "./assets/style/admin.css"
                 <td>Annika.Mcbride@mail.com</td>
                 <td>Yes</td>
                 <td>
-                    <i class="far fa-eye"></i>
-                    <i class="fas fa-pen"></i>
+                    <span class="material-icons mr-4">remove_red_eye</span>
+                    <span class="material-icons">create</span>
                 </td>
             </tr>
             <tr>
@@ -88,8 +93,8 @@ pageCss: "./assets/style/admin.css"
                 <td>Fatimah.Clark@mail.com</td>
                 <td>Yes</td>
                 <td>
-                    <i class="far fa-eye"></i>
-                    <i class="fas fa-pen"></i>
+                    <span class="material-icons mr-4">remove_red_eye</span>
+                    <span class="material-icons">create</span>
                 </td>
             </tr>
             <tr>
@@ -98,8 +103,8 @@ pageCss: "./assets/style/admin.css"
                 <td>Klaudia.Rhodes@mail.com</td>
                 <td>Yes</td>
                 <td>
-                    <i class="far fa-eye"></i>
-                    <i class="fas fa-pen"></i>
+                    <span class="material-icons mr-4">remove_red_eye</span>
+                    <span class="material-icons">create</span>
                 </td>
             </tr>
             <tr>
@@ -108,8 +113,8 @@ pageCss: "./assets/style/admin.css"
                 <td>Tillie.Lucero@mail.com</td>
                 <td>Yes</td>
                 <td>
-                    <i class="far fa-eye"></i>
-                    <i class="fas fa-pen"></i>
+                    <span class="material-icons mr-4">remove_red_eye</span>
+                    <span class="material-icons">create</span>
                 </td>
             </tr>
             <tr>
@@ -118,8 +123,8 @@ pageCss: "./assets/style/admin.css"
                 <td>Sabrina.Stephenson@mail.com</td>
                 <td>Yes</td>
                 <td>
-                    <i class="far fa-eye"></i>
-                    <i class="fas fa-pen"></i>
+                    <span class="material-icons mr-4">remove_red_eye</span>
+                    <span class="material-icons">create</span>
                 </td>
             </tr>
             <tr>
@@ -128,10 +133,66 @@ pageCss: "./assets/style/admin.css"
                 <td>Annie.Smith@mail.com</td>
                 <td>Yes</td>
                 <td>
-                    <i class="far fa-eye"></i>
-                    <i class="fas fa-pen"></i>
+                    <span class="material-icons mr-4 c-pointer" data-toggle="modal" data-target="#browserModal">
+                        remove_red_eye
+                    </span>
+                    <span class="material-icons c-pointer" data-toggle="modal" data-target="#editModal">
+                        create
+                    </span>
                 </td>
             </tr>
         </tbody>
     </table>
+</div>
+
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">New Admin</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="browserModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="margin-top: calc(40vh - 136px);">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edit Admin</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+            </div>
+        </div>
+    </div>
 </div>
