@@ -24,16 +24,18 @@ pageCss: "./assets/style/admin.css"
     <table class="table">
         <thead>
             <tr>
-                <th class="d-flex align-items-center">
-                    ID
-                    <span class="material-icons color-green ">
-                        arrow_downward
-                    </span>
+                <th class="th-border-top-none th-border-bottom">
+                    <div class="d-flex align-items-center">
+                        ID
+                        <span class="material-icons color-green ">
+                            arrow_downward
+                        </span>
+                    </div>
                 </th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Verified</th>
-                <th></th>
+                <th class="th-border-top-none th-border-bottom">Name</th>
+                <th class="th-border-top-none th-border-bottom">Email</th>
+                <th class="th-border-top-none th-border-bottom">Verified</th>
+                <th class="th-border-top-none th-border-bottom"></th>
             </tr>
         </thead>
         <tbody>
@@ -143,23 +145,113 @@ pageCss: "./assets/style/admin.css"
             </tr>
         </tbody>
     </table>
+    <div class="row">
+        <div class="col-12 d-flex justify-content-end">
+            <ul class="d-flex">
+                <li>
+                    <span class="material-icons">
+                        keyboard_arrow_left
+                        </span>
+                </li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>
+                    <span class="material-icons">
+                        keyboard_arrow_right
+                        </span>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 <div class="modal fade" id="addModal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">New Admin</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
             <div class="modal-body">
-                ...
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h4 class="modal-title" id="exampleModalLabel">New Admin</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <h5>Account</h5>
+                        <div class="form-group">
+                            <label for="Name">Name</label>
+                            <input type="text" class="form-control" id="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email</label>
+                            <input type="text" class="form-control" id="Email">
+                        </div>
+                        <h5>Verification</h5>
+                        <div class="d-flex align-items-center">
+                            <span class="material-icons">
+                                warning
+                            </span>
+                            <h6>Unverified</h6>
+                        </div>
+                        <div>
+                            Send Verification Mail
+                        </div>
+                        <h5>Access Level</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="">-Choose access level-</option>
+                                <option value="1">Admin</option>
+                            </select>
+                        </div>
+                        <h5>Custom Access</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Lecture">
+                            <label class="form-check-label" for="Lecture">
+                                Lecture
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Coupon">
+                            <label class="form-check-label" for="Coupon">
+                                Coupon
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Message">
+                            <label class="form-check-label" for="Message">
+                                Message
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Setting">
+                            <label class="form-check-label" for="Setting">
+                                Setting
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="TaskMenu">
+                            <label class="form-check-label" for="TaskMenu">
+                                Task Menu
+                            </label>
+                        </div>
+                        <h5>Deactivate Account</h5>
+                        <div class="d-flex align-items-center">
+                            <span class="material-icons">
+                                warning
+                            </span>
+                            <h6>This cannot be undone!</h6>
+                        </div>
+                        <div>
+                            Send Verification Mail
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Add</button>
             </div>
         </div>
     </div>
@@ -169,9 +261,36 @@ pageCss: "./assets/style/admin.css"
     <div class="modal-dialog" role="document">
         <div class="modal-content" style="margin-top: calc(40vh - 136px);">
             <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
+                <div class="row no-gutters">
+                    <div class="col-6 p-3 align-items-stretch">
+                        <div
+                            style="background-image: url(https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emir.jpeg?raw=true);background-repeat:none;background-position:center center;background-size: cover;height: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-6 p-3">
+                        <div class="d-flex align-items-center justify-content-between">
+                            <h4 class="mb-0">#1</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <p>Admin</p>
+                        <p>Emir Wicks</p>
+                        <p>emir.wicks@mail.com</p>
+                        <div class="d-flex align-items-center justify-content-between">
+                            <p>verified</p>
+                            <span class="material-icons" data-toggle="collapse" data-target="#browserAppliction">
+                                keyboard_arrow_down
+                            </span>
+                        </div>
+                    </div>
+                    <div class="collapse" id="browserAppliction">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Update</button>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
@@ -180,18 +299,88 @@ pageCss: "./assets/style/admin.css"
 <div class="modal fade" id="editModal" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Edit Admin</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
             <div class="modal-body">
-                ...
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h4 class="modal-title" id="exampleModalLabel">Edit Admin</h4>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <h5>Account</h5>
+                        <div class="form-group">
+                            <label for="Name">Name</label>
+                            <input type="text" class="form-control" id="Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email</label>
+                            <input type="text" class="form-control" id="Email">
+                        </div>
+                        <h5>Verification</h5>
+                        <div class="d-flex align-items-center">
+                            <span class="material-icons">
+                                check_circle
+                            </span>
+                            <h6>Unverified</h6>
+                        </div>
+                        <div>
+                            Send Verification Mail
+                        </div>
+                        <h5>Access Level</h5>
+                        <div class="form-group">
+                            <select class="form-control">
+                                <option value="">-Choose access level-</option>
+                                <option value="1">Admin</option>
+                            </select>
+                        </div>
+                        <h5>Custom Access</h5>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Lecture">
+                            <label class="form-check-label" for="Lecture">
+                                Lecture
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Coupon">
+                            <label class="form-check-label" for="Coupon">
+                                Coupon
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Message">
+                            <label class="form-check-label" for="Message">
+                                Message
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="Setting">
+                            <label class="form-check-label" for="Setting">
+                                Setting
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="TaskMenu">
+                            <label class="form-check-label" for="TaskMenu">
+                                Task Menu
+                            </label>
+                        </div>
+                        <h5>Deactivate Account</h5>
+                        <div class="d-flex align-items-center">
+                            <span class="material-icons">
+                                warning
+                            </span>
+                            <h6>This cannot be undone!</h6>
+                        </div>
+                        <div>
+                            Send Verification Mail
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Update</button>
             </div>
         </div>
     </div>

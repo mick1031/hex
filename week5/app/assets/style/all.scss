@@ -3,7 +3,7 @@ li {
 }
 
 a:hover {
-    text-decoration:none;
+    text-decoration: none;
 }
 
 .height-100vh {
@@ -14,8 +14,20 @@ a:hover {
     margin: 32px;
 }
 
+.mt-32px {
+    margin-bottom: 32px;
+}
+
 .mb-32px {
     margin-bottom: 32px;
+}
+
+.mr-32px {
+    margin-right: 32px;
+}
+
+.p-32px {
+    padding: 32px;
 }
 
 .ml-40px {
@@ -37,6 +49,27 @@ a:hover {
 
 .color-green {
     color: #2A8356;
+}
+
+.color-light-green {
+    color: #CDDDCD
+}
+
+.color-background-green {
+    color:#EDF4EE;
+}
+
+.pagination-border {
+    color:#EDF4EE;
+}
+
+
+.table thead .th-border-top-none {
+    border-top: 0;
+}
+
+.table thead .th-border-bottom {
+    border-bottom: 1px solid #121212;
 }
 
 .menu {
