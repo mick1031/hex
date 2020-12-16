@@ -10,6 +10,14 @@ a:hover {
     height: 100vh;
 }
 
+.mb-18px {
+    margin-bottom: 18px;
+}
+
+.mb-24px {
+    margin-bottom: 24px;
+}
+
 .m-32px {
     margin: 32px;
 }
@@ -30,6 +38,14 @@ a:hover {
     margin-left: 40px;
 }
 
+.pb-8px {
+    padding-bottom: 8px;
+}
+
+.pb-24px {
+    padding-bottom: 24px;
+}
+
 .p-32px {
     padding: 32px;
 }
@@ -40,6 +56,22 @@ a:hover {
 
 .pl-32px {
     padding-left: 32px;
+}
+
+.h-24px {
+    height: 24px;
+}
+
+.h-50px{
+    height: 50px;
+}
+
+.w-24px {
+    width: 24px;
+}
+
+.w-32px {
+    width: 32px;
 }
 
 .c-pointer {
@@ -59,27 +91,58 @@ a:hover {
     color: #2A8356;
 }
 
-.color-light-green {
-    color: #CDDDCD
+.border-right-green {
+    border-right: 1px solid #2A8356;
 }
 
-.color-background-green {
-    color:#EDF4EE;
+.border-green {
+    border: 1px solid #2A8356;
+}
+
+.background-color-green {
+    background-color: #2A8356;
+}
+
+.color-light-green {
+    color: #CDDDCD;
+}
+
+.background-color-light-green {
+    background-color: #EDF4EE;
+}
+
+.border-bottom-light-green {
+    border-bottom: 1px solid #CDDDCD;
+}
+
+.border-2px-light-green {
+    border: 2px solid #CDDDCD;
+}
+
+.color-red {
+    color: #E3006E;
+}
+
+.border-red {
+    border: 1px solid #E3006E;
+}
+
+.color-white {
+    color: #ffffff;
+}
+
+.background-color-white {
+    background-color: #ffffff;
 }
 
 .pagination-border {
-    color:#EDF4EE;
-}
-
-
-.table thead .th-border-top-none {
-    border-top: 0;
-}
-
-.table thead .th-border-bottom {
-    border-bottom: 1px solid #121212;
+    color: #EDF4EE;
 }
 
 .menu {
     background: #EDF4EE;
+}
+
+.font-14px {
+    font-size: 14px;
 }

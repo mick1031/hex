@@ -2,4 +2,17 @@ i {
   width: 24px;
   height: 24px; }
 
+.table thead .th-border-top-none {
+  border-top: 0; }
+
+.table thead .th-border-bottom {
+  border-bottom: 1px solid #121212; }
+
+.modal-user-image {
+  background-image: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week5/emir.jpeg?raw=true");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%; }
+
 /*# sourceMappingURL=admin.css.map */
