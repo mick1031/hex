@@ -1,1 +1,0 @@
-{"version":3,"sources":["footer.scss"],"names":[],"mappings":"AAAA;EACI,aAAa;EACb,yBAAyB,EAAA","file":"footer.css","sourcesContent":[".footer {\r\n    height: 200px;\r\n    background-color: #00cc99;\r\n}"]}

@@ -2,37 +2,137 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>首頁</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        首頁
+    </title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="./assets/style/all.css">
+    <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
-  <header class="header">
-    這是 header
-  </header>
+    <style>
+        .logo {
+            background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/d%E2%80%99Perfume.png");
+            width: 128px;
+            height: 38px;
+        }
 
-  
-<h1>
-  這是一段話
-</h1>
+        .uh-56px {
+            height: 56px;
+        }
+    </style>
 
-<div class="box">
-  test
+    <header class="header">
+        <div class="container">
+            <div class="row d-flex align-items-center uh-56px">
+                <div class="col-2">
+                    <div class="logo"></div>
+                </div>
+                <div class="col-1 offset-6 d-flex align-items-center">
+                    <span class="material-icons">
+                        add_business
+                    </span>
+                    <p class="m-0">Product</p>
+                </div>
+                <div class="col-1 d-flex align-items-center">
+                    <span class="material-icons">
+                        person
+                    </span>
+                    <p class="m-0">log in</p>
+                </div>
+                <div class="col-1 d-flex align-items-center">
+                    <span class="material-icons">
+                        favorite
+                    </span>
+                    <p class="m-0">Wishlist</p>
+                </div>
+                <div class="col-1 d-flex align-items-center">
+                    <span class="material-icons">
+                        shopping_cart
+                    </span>
+                    <p class="m-0">Cart(3)</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    
+<style>
+    .index-banner {
+        background-image: url("https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index1.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 100%;
+    }
+
+    .index-product {
+        background-repeat: no-repeat;
+        background-size: contain;
+        max-width: 100%;
+    }
+
+    .uh-870px {
+        height: 870px;
+    }
+
+    .umb-60px {
+        margin-bottom: 60px;
+    }
+</style>
+
+<div class="index-banner uh-870px umb-60px">
+    <div class="container">
+        <div class="row">
+            <div class="col-5 offset-7 d-flex flex-column justify-content-center uh-870px">
+                <h1 class="text-white" style="line-height: 60px;">Perfume your day</h3>
+                <p class="h4 text-white mb-3">A perfume is like a piece of clothing, a message, a way of presenting oneself a costume that according to the person who wears it.</p>
+                <div class="text-center">
+                    <button class="btn btn-outline-light rounded-pill" style="width: 350px;line-height: 60px;">
+                        <span class="h3">Shop now</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
-  <footer class="footer">
-    footer
-  </footer>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  <script src="./assets/js/vendors.js"></script>
-  <script src="./assets/js/all.js"></script>
+<div class="container">
+    <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6 index-product" style="background-image:url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index2.jpg')"></div>
+    </div>
+    <div class="row ">
+        <div class="col-6"></div>
+        <div class="col-6 index-product" style="background-image:url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index3.jpg')"></div>
+    </div>
+    <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6 index-product" style="background-image:url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index4.jpg')"></div>
+    </div>
+    <div class="row">
+        <div class="col-6"></div>
+        <div class="col-6 index-product" style="background-image:url('https://hexschool.github.io/webLayoutTraining1st/perfume-week6/index5.jpg')"></div>
+    </div>
+</div>
+
+<div class="box">
+    test
+</div>
+
+        <footer class="footer">
+            footer
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script src="./assets/js/vendors.js"></script>
+        <script src="./assets/js/all.js"></script>
 </body>
 
 </html>
